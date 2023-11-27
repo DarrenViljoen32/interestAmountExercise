@@ -17,6 +17,6 @@ function interest(){
      //calculation
      let result = enterPercent / enterPrice;
      let newResult = result * 100;
-     return document.getElementsByTagName(`input`)[2].value = `${enterPercent}% of ${enterPrice} is ${newResult.toFixed(2)}%`;
+     return document.getElementsByTagName(`input`)[2].value = `${enterPercent}% of ${enterPrice} is ${newResult.toFixed(2)}`;
 }
 
