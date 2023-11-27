@@ -20,7 +20,7 @@ background-color: #3e8e41;
 box-shadow: 0 5px #666;
 transform: translateY(4px);
 } */
-#price #result{
+#price, #percentage, #result{
     font-size: large;
     text-align: center;
     color: #000030;
@@ -93,7 +93,7 @@ body {
 .button{
     font-size: 12px;
 }
-#price #result{
+#price, #percentage, #result{
     font-size: 18px;
 }
 }
